@@ -74,8 +74,6 @@ animationStates.forEach((state, index) => {
   }
 });
 
-console.log(spriteAnimations);
-
 function animate() {
   ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
   let position =
